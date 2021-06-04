@@ -3,6 +3,7 @@
 namespace Chatter\Core\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
 
 class StoreUsernameRequest extends FormRequest
 {
